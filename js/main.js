@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Manav Gurumoorthy.", "Electronics Engineer.", "Hardware Design.", ],
+      strings: ["Manav Gurumoorthy.",],
       typeSpeed: 100,
       loop: true,
     });
