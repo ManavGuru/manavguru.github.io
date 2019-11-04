@@ -79,8 +79,8 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Manav Gurumoorthy",],
-      typeSpeed: 100,
+      strings: ["I'm Manav Gurumoorthy","Computer Engineer" ],
+      typeSpeed: 75,
       loop: true,
     });
   });
