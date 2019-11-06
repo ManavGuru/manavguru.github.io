@@ -10,8 +10,8 @@
 /*-----------------------------------------------------------------------------------*/
 
 body {
-  background: #000000;
-  color: #0062cc;
+  background: #ffffff;
+  color: #ffffff;
   font-family: 'Poppins', helvetica;
   font-size: 15px;
   font-weight: 300;
@@ -32,18 +32,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  color: #ffffff;
+  color: #0b0b0b;
   font-weight: 600;
 }
 
 h4 {
-  color: #292929;
+  color: #000000;
   font-size: 14px;
   font-weight: 600;
 }
 
 a {
-  color: #f8f9fa;
+  color: #000000;
   text-decoration: none !important;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -86,7 +86,7 @@ p {
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
-  color: #F8F9F2;
+  color: #000000;
   line-height: 28px;
 }
 
@@ -113,7 +113,7 @@ p {
 }
 
 .btn:hover, .btn:focus {
-  color: #fff;
+  color: #ffffff;
 }
 
 .padDiv {
@@ -240,7 +240,9 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: url("../images/home-bg.jpg") repeat scroll center center / cover;
+ // background: url("../images/home-bg.jpg") repeat scroll center center / cover;
+  background: #000;
+  opacity: 1;
   height: 100vh;
   width: 100%;
 }
@@ -248,7 +250,7 @@ nav ul li a {
 
 #header .header-content {
   height: 100vh;
-  text-align: left;
+  text-align: center;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -278,7 +280,7 @@ nav ul li a {
   margin-right: 20px;
 }
 
-.header-content .list-social li i {
+//.header-content .list-social li i {
   color: #ffffff;
   font-size: 15px;
 }
@@ -290,13 +292,13 @@ nav ul li a {
 #about {
   width: 100%;
   height: auto;
-  background: #000000;
+  background: #fffefe;
   padding-top: 190px;
 }
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #0062cc;
+  border: 20px solid #000000;
 }
 
 #about .div-img-bg .about-img img {
@@ -325,7 +327,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #services {
-  background: #000000;
+  background: #ffffff;
   position: relative;
   padding-bottom: 80px;
 }
@@ -337,7 +339,7 @@ nav ul li a {
   margin: 10px 0;
   position: relative;
   font-size: 13px;
-  color: #faf7f7;
+  color: #000000;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: uppercase;
@@ -352,7 +354,7 @@ nav ul li a {
 
 .services-block i {
   font-size: 44px;
-  color: #0062cc;
+  color: #faf5f5;
   line-height: 44px;
 }
 
@@ -374,12 +376,12 @@ nav ul li a {
   border-radius: 50%;
   border: 0;
   padding: 0 !important;
-  background-color: #a39e9e;
+  background-color: #030303;
   cursor: pointer;
 }
 
 .services-carousel .owl-dot.active {
-  background-color: #0062cc;
+  background-color: #7f8182;
 }
 
 .owl-nav {
@@ -409,7 +411,7 @@ nav ul li a {
   margin: 0 40px 0 0;
   float: left;
   font-size: 14px;
-  color: #ffffff;
+  color: #000000;
   line-height: 16px;
   cursor: pointer;
   font-family: 'Poppins', helvetica;
@@ -455,7 +457,7 @@ nav ul li a {
 #journal,  #journal-blog {
   height: auto;
   width: 100%;
-  background: #000000;
+  background: #fefbfb;
   padding-bottom: 60px;
   position: relative;
 }
@@ -574,7 +576,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background: #212529;
+  background: #000000;
   padding-top: 50px;
   padding-bottom: 50px;
 }
